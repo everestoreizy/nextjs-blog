@@ -29,7 +29,7 @@ export default function Home({ allPostsData }) {
       <section className={utilStyles.headingMd}>
         <p>Hi, I'm Everest, a random high school student you don't care about.</p>
         <p>
-          (This is a sample website built with next.js. Any post earlier than 2021 is a sample post and was NOT written by me.)
+          (This is a sample website built with next.js using the vercel tutorial.)
         </p>
       </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>

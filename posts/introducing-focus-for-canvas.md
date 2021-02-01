@@ -1,6 +1,6 @@
 ---
-title: Introducing Focus for Canvas
-date: 2019-05-01
+title: 'Introducing Focus for Canvas'
+date: '2019-05-01'
 ---
 
 This project is a Chromium extension that removes the annoying blur (and the stupid message) from your grades in Canvas, a popular LMS among schools.

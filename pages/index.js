@@ -27,6 +27,7 @@ export default function Home({ allPostsData }) {
         <title>{siteTitle}</title>
       </Head>
       <section className={utilStyles.headingMd}>
+        
         <p>Hi, I'm Everest, a random high school student.</p>
         <p>
           (This is a sample website built with next.js using the vercel tutorial.)

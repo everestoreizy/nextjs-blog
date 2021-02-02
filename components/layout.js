@@ -5,6 +5,7 @@ import Link from 'next/link'
 
 const name = 'Everest Oreizy'
 export const siteTitle = 'Everest Oreizy'
+export const socialMediaHTML = '<b>HI</b>'
 
 export default function Layout({ children, home }) {
   return (
@@ -33,6 +34,7 @@ export default function Layout({ children, home }) {
               alt={name}
             />
             <h1 className={utilStyles.heading2Xl}>{name}</h1>
+            
           </>
         ) : (
           <>
@@ -52,7 +54,16 @@ export default function Layout({ children, home }) {
             </h2>
           </>
         )}
+        <div id='social-media-icons-div'>
+          <Link href={`https://scrapbook.everestoreizy.me`}>
+            <img src='https://blog.everestoreizy.vercel.app/images/icon-hackclub.png' className='social-media-icon-img'></img>
+          </Link> &nbsp;
+          <Link href={`https://github.com/everestoreizy`}>
+            <img src='https://blog.everestoreizy.vercel.app/images/icon-github.png' className='social-media-icon-img'></img>
+          </Link>
+        </div>
       </header>
+        
       <main>{children}</main>
       {!home && (
         <div className={styles.backToHome}>

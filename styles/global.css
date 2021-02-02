@@ -23,5 +23,23 @@ a:hover {
 
 img {
   max-width: 100%;
-  display: block;
+  /* display: block; */
+}
+
+.social-media-icon-img{
+  width: 30px;
+  height: 30px;
+  /* margin: auto; */
+}
+
+.social-media-icons-div{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.link-container{
+  /* background-color: yellow; */
+  width: 30px;
+  height: 30px;
 }

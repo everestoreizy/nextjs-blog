@@ -1,5 +1,5 @@
 ---
-title: 'Introducing Focus for Canvas'
+title: 'Ship: Introducing Focus for Canvas'
 date: '2019-05-01'
 ---
 

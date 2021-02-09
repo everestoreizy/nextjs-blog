@@ -1,6 +1,6 @@
 ---
 title: 'Schoolwork: Essay on the Failure of Marxist Principles in Russia'
-date: '2021-2-9'
+date: '2021-02-09'
 ---
 
 Hey all!
